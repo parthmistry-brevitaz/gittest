@@ -4,7 +4,7 @@ job:
 source:
   endpoint: "lo_jdbc_mysql"
   properties:
-    table: "table1"
+    table: "table1_ui"
 schema:
   strict_schema_check: true
   schema_derivation_strategy: "source"
