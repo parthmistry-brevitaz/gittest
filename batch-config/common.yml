@@ -1,7 +1,7 @@
 version: 1
 context_stage_mappings:
   - context:
-      system: ui
+      system: ui2
       location: IN
     rerun_batch: true
     period: 1
