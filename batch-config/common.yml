@@ -32,5 +32,5 @@ context_stage_mappings:
 - context:
     system: "v1"
   rerun_batch: false
-  period: "2"
+  period: "5"
   stages: []
