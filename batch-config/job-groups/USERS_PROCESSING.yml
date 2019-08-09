@@ -3,4 +3,4 @@ version: 1
 properties: {}
 jobs:
 - "external2"
-parallel: 2
+parallel: 4
