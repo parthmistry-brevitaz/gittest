@@ -1,3 +1,6 @@
+description: ""
 version: 1
+properties: {}
 jobs:
-  - external2
+- "external2"
+parallel: 2
