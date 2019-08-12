@@ -4,7 +4,7 @@ job:
 source:
   endpoint: "lo_jdbc_mysql"
   properties:
-    table: "table1"
+    table: "table1_2"
 schema:
   strict_schema_check: true
   schema_derivation_strategy: "source"
@@ -12,4 +12,4 @@ schema:
 target:
   endpoint: "lo_jdbc_mysql"
   properties:
-    table: "table2"
+    table: "table3"
