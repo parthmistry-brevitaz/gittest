@@ -4,12 +4,12 @@ job:
 source:
   endpoint: "lo_jdbc_mysql"
   properties:
-    query: "select * from table1"
+    query: "select * from ${src_table}"
 schema:
   strict_schema_check: true
   schema_derivation_strategy: "source"
   discard: true
 target:
-  endpoint: "lo_jdbc_mysql"
+  endpoint: "lo_jdbc_mssql"
   properties:
-    table: "table2"
+    table: "${tgt_table}"
